@@ -1,0 +1,159 @@
+body {
+    background: #fff8dc;
+    font-family: tahoma, arial, sans-serif;
+}
+
+.logo{
+	height: 30px;
+	width: 115px;
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logo-link {
+    display: block;
+	background-image: url('../img/sprites.png');
+	height: 30px;
+	width: 115px;
+	background-position: 2px 0px;
+}
+
+.search {
+	  background-image: url('../img/reed-546250_640.jpg');
+	  -webkit-background-size: cover;
+	  background-size:cover;
+	  height: 500px;
+	  background-position: center;
+}
+
+.display-none {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    background-image: url('../img/sprites.png');
+     background: rgb(0,141,1);
+}
+
+/*=====HEADER=====*/
+
+header {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+
+}
+.search__form {
+    margin: 0 auto;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__search {
+    width: 600px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #888;
+    font-size: 16px;
+    vertical-align: top;
+
+}
+
+.form__button {
+    width: 60px;
+    height: 50px;
+    border: 1px solid #888;
+    background: rgb(0,141,223);
+    margin-left: -6px;
+    background-image: url('../img/sprites.png');
+    background-repeat:  no-repeat;
+    background-position:18px -89px;
+    vertical-align: top;
+}
+
+.form__button:hover {
+    border: 1px solid #888;
+    background: rgb(0,141,198);
+    cursor: pointer;
+    background-image: url('../img/sprites.png');
+    background-repeat:  no-repeat;
+    background-position: 18px -89px;
+}
+
+.form__button:active {
+    border: 1px solid #888;
+    background-image: url('../img/sprites.png');
+    background-repeat:  no-repeat;
+    background-position: 18px -89px;
+     background: rgb(0,141,198);
+}
+
+/*=====IMG=====*/
+.search__img {
+
+    /*width: 800px;*/
+	margin:  0 auto;
+
+    background-color: #e6e6fa;
+    padding: 20px;
+
+}
+figure {
+	width: 320px;
+    border: 1px solid #dcdcdc;
+
+
+}
+
+img {
+	width: 320px;
+	height:auto;
+	background-size: cover;
+    background-color: #fff;
+
+}
+
+.img__item {
+    display: inline-block;
+
+    text-align: center;
+    vertical-align: top;
+}
+
+.img__img {
+    display: block;
+
+}
+
+.img__link {
+    display: block;
+    margin: 5px;
+}
+
+.img__autor {
+    margin: 5px;
+}
+
+.img__size {
+    margin: 5px;
+}
+figcaption {
+    background-color: #fff0f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*=====MAP=====*/
+#map {
+    margin: 50px auto;
+
+    width: 600px;
+    height: 400px;
+}
+
+
+
